@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SellAuth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sell<span class="blue">Auth</span></h1>
+        <footer>Made by @theuselesscreator on DC</footer>
+        <footer>This is a temp website until we switch to fully self hosted, not BotPress.</footer>
+        <footer>Try saying: Hey, make me a simple popup when the user first joins my site.</footer>
+    </div>
+
+    <!-- Botpress Webchat -->
+    <script src="https://cdn.botpress.cloud/webchat/v3.5/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2026/01/19/02/20260119021008-WCIXB7OK.js" defer></script>
+</body>
+</html>
