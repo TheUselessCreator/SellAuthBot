@@ -1,0 +1,42 @@
+/* Full page black background */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Container to stack title and footer */
+.container {
+    text-align: center;
+}
+
+/* Main title styling */
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+/* Blue "Auth" part */
+h1 .blue {
+    color: #007bff; /* bright blue */
+}
+
+/* Footer styling */
+footer {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #888;
+}
+
+/* Ensure Botpress appears in bottom-right */
+.bp-widget {
+    position: fixed !important;
+    bottom: 20px;
+    right: 20px;
+}
